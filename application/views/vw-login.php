@@ -32,7 +32,7 @@
                                             <i class="fas fa-user"></i>
                                         </span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Usuario">
+                                    <input type="text" id="username" class="form-control" placeholder="Usuario">
                                 </div>
                             </div>
                             <div class="mb-2"></div>
@@ -43,7 +43,7 @@
                                             <i class="fas fa-lock"></i>
                                         </span>
                                     </div>
-                                    <input type="password" class="form-control" placeholder="Contraseña">
+                                    <input type="password" id="password" class="form-control" placeholder="Contraseña">
                                 </div>
                             </div>
                             <div class="mb-2"></div>
@@ -64,6 +64,9 @@
     <script src="<?=base_url()?>assets/js/scripts.js"></script>
     <script src="<?=base_url()?>assets/js/simple-datatables.min.js" crossorigin="anonymous"></script>
     <script src="<?=base_url()?>assets/js/datatables-simple-demo.js"></script>
+    <script type="text/javascript" src="<?=base_url()?>assets/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+    <script src="<?=base_url()?>assets/js/generales.js"></script>
+    <script src="<?=base_url()?>assets/js/mensaje.js"></script>
     <script src="<?=base_url()?>assets/js/login.js"></script>
 </body>
 
