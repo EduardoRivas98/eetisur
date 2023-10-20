@@ -52,3 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'loginsesion';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['api/register'] = "api/Api/users";
+$route['api/auth/register'] = "api/Auth/register";
+$route['api/auth/loginToken'] = "api/Auth/login";
+$route['api/getProfile'] = "api/Api_Controller/getProfile";
